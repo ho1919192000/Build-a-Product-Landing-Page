@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hd-logo {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    color: dimgray;
+    font-size: 2em;
+    width: 15%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#nav-bar {
+    height: 4%;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
